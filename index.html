@@ -6,14 +6,14 @@
     <title>SLAY NAILS STUDIO | 辣美風美甲</title>
     <style>
         body {
-            background-color: #121212; /* 酷炫深邃黑底色 */
+            background-color: #121212;
             color: #ffffff;
             font-family: 'Helvetica Neue', Arial, sans-serif;
             text-align: center;
             padding: 50px 20px;
         }
         h1 {
-            color: #ff007f; /* 辣妹螢光桃紅 */
+            color: #ff007f;
             font-size: 2.5em;
             letter-spacing: 2px;
             margin-bottom: 5px;
@@ -24,8 +24,30 @@
             background: #1e1e1e;
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 0 20px rgba(255, 0, 127, 0.3); /* 桃紅霓虹光暈 */
+            box-shadow: 0 0 20px rgba(255, 0, 127, 0.3);
         }
+        
+        /* -- 新增的照片牆特效設定 -- */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: 250px; /* 固定高度讓排版整齊 */
+            object-fit: cover; /* 讓照片填滿且不變形 */
+            border-radius: 10px;
+            border: 2px solid #333;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05); /* 滑鼠游標移過去會放大 */
+            border-color: #ff007f; /* 邊框變辣妹粉色 */
+        }
+        /* ----------------------- */
+
         .price-table {
             width: 100%;
             border-collapse: collapse;
@@ -63,6 +85,16 @@
     <div class="container">
         <h1>🌶️ SLAY NAILS STUDIO</h1>
         <p>指尖上的性感，由妳定義。歡迎來到專屬辣妹的玩美基地。</p>
+
+        <!-- 新增的照片牆區塊 -->
+        <h2>📸 PORTFOLIO | 辣妹圖鑑</h2>
+        <div class="gallery">
+            <!-- 這裡的 src 填寫妳上傳的照片檔名 -->
+            <img src="photo1.jpg" alt="辣美作品1">
+            <img src="photo2.jpg" alt="辣美作品2">
+            <img src="photo3.jpg" alt="辣美作品3">
+        </div>
+        <!-- 照片牆區塊結束 -->
 
         <h2>💸 SERVICES & PRICING</h2>
         <table class="price-table">
