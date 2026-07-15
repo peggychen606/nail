@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLAY NAILS STUDIO | 辣美風美甲</title>
+    <style>
+        body {
+            background-color: #121212; /* 酷炫深邃黑底色 */
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h1 {
+            color: #ff007f; /* 辣妹螢光桃紅 */
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 0, 127, 0.3); /* 桃紅霓虹光暈 */
+        }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .price-table th, .price-table td {
+            border: 1px solid #333;
+            padding: 15px;
+            text-align: left;
+        }
+        .price-table th {
+            background-color: #ff007f;
+            color: #fff;
+            border-color: #ff007f;
+        }
+        a.btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 35px;
+            background-color: #ff007f;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        a.btn:hover {
+            background-color: #ff4da6;
+            box-shadow: 0 0 15px rgba(255, 0, 127, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌶️ SLAY NAILS STUDIO</h1>
+        <p>指尖上的性感，由妳定義。歡迎來到專屬辣妹的玩美基地。</p>
+
+        <h2>💸 SERVICES & PRICING</h2>
+        <table class="price-table">
+            <tr>
+                <th>服務項目</th>
+                <th>詳細說明</th>
+                <th>價格 (NTD)</th>
+            </tr>
+            <tr>
+                <td>極簡純色</td>
+                <td>單色 / 跳色 / 全手霧面</td>
+                <td>$1,000</td>
+            </tr>
+            <tr>
+                <td>微辣造型</td>
+                <td>貓眼 / 漸層 / 經典法式</td>
+                <td>$1,300</td>
+            </tr>
+            <tr>
+                <td>重度辣妹</td>
+                <td>Y2K立體 / 滿鑽 / 複雜手繪</td>
+                <td>$1,800+</td>
+            </tr>
+            <tr>
+                <td>卸甲服務</td>
+                <td>本店卸甲續作 / 他店</td>
+                <td>$200 / $400</td>
+            </tr>
+        </table>
+
+        <h2>📅 BOOKING INFO</h2>
+        <p>工作室採完全預約制，準備好讓指尖煥然一新了嗎？<br>點擊下方按鈕加入官方 LINE 預約保留妳的專屬時段。</p>
+        <a href="https://line.me/" target="_blank" class="btn">立即預約 (LINE)</a>
+    </div>
+</body>
+</html>
